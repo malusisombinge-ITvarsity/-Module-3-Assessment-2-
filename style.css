@@ -1,0 +1,243 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Tahoma, Verdana, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+    background-color: coral;
+}
+
+.body-home {
+    background-image: url('images/menu3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/main.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== HOME PAGE==========*/
+.header {
+    text-align: center;
+    overflow: hidden
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img{
+    width: 250px;
+    padding: 10px
+}
+
+/*========== HOME PAGE==========*/
+
+#home-logo-img {
+    display: block;
+    margin: auto;
+    padding: 30px 10px 25px 10px;
+}
+
+/*====== HOME PAGE MENU ======*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: azure;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    border: 6px solid white;
+    
+    
+    margin: auto;
+    margin-bottom: 14px;
+    display: block;
+    width: 70%;    
+}
+
+/*========== MEALS PAGE==========*/
+#meals{
+    width: 100%;
+}
+/*====== MEALS PAGE MENU ======*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-items {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-items h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+    color: #4d4d4d;
+}
+
+.meals-list-items i{
+    float: right;
+    color: #4d4d4d;
+    padding-right: 25px;
+}
+
+/*====== DETAILS PAGE MENU ======*/
+#about-meals{
+    width: 100%;
+}
+.meals-details img{
+    width: 100%;
+}
+
+.meals-details h1{
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.meals-details h3{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.meals-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.meals-details-info p{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.meals-details-extras label{
+    line-height: 20px;
+    margin-left: 2px;
+    font: 15px;
+}
+
+.meals-details-extras p{
+    margin-left: 25px;
+}
+
+/*====== DETAILS PAGE MENU ======*/
+#home-order{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 85%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+
+#home-order img{
+    width: 100%;
+}
+
+#home-order h3{
+    text-align: center;
+}
+
+/*====== BUTTON ======*/
+
+.buy{
+    padding-left: 10px;
+}
+
+.received{
+    text-align: center;
+}
+
+/*====== RESPONSIVE LAYOUTS ======*/
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    #about-meals{
+        width: 80%;
+        margin: auto;
+    }
+} 
+
+@media only screen and (min-width: 1500px) {
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    #about-meals{
+        width: 60%;
+        margin: auto;
+    }  
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
